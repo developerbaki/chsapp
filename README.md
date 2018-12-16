@@ -1,0 +1,2 @@
+# chsapp
+Hastane otomasyon sistemi
