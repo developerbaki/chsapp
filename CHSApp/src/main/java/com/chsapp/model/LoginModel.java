@@ -9,14 +9,10 @@ package com.chsapp.model;
  *
  * @author baki
  */
-public class PatientOperations {
-    
-    
-    public int Id;
-    public int appointmentId;
-    public int patientId;
-    public Appointment appointment;
-    public Patient patient;
-    
+public class LoginModel {
+    public boolean Success;
+    public String Username;
+    public String Rolename;
+    //public Integer unreadMessageCount;
     
 }

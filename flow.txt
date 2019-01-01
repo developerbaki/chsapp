@@ -1,0 +1,14 @@
+1- login sayfasını çalıştır database sorgulaması yap doğruysa doğru yanlışsa yanlış dönsün.
+2-Eğer giren kullanıcı hastaysa randevu al gibi bir buton görülsün.
+3-Doktorsa randevu listesi butonu görülsün.
+4-Adminse tüm randevular diye bir buton görülsün.
+
+
+Appoitment
+Patient
+PatientOperations
+
+Servletlerini yaz 
+
+
+veritabanı tablo collection u düzelt

@@ -3,7 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+
 package com.chsapp.dao;
+
+import com.chsapp.model.LoginModel;
 
 /**
  *
@@ -11,7 +15,7 @@ package com.chsapp.dao;
  */
 //user login
 public interface UserDao {
-    public boolean loginUser(String userName, String password );
+    public LoginModel loginUser(String userName, String password );
     
     
 }

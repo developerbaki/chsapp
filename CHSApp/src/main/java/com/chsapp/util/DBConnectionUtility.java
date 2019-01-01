@@ -19,7 +19,7 @@ public class DBConnectionUtility {
         Connection connection = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/chsapp","root","");
+            connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/chs","root","");
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (Exception e) {

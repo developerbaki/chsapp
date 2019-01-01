@@ -9,6 +9,7 @@ com\chsapp\util\DBConnectionUtility.class
 com\chsapp\model\Patient.class
 com\chsapp\servlet\Login.class
 com\chsapp\dao\Appointment.class
+com\chsapp\model\LoginModel.class
 com\chsapp\model\Appointment.class
 com\chsapp\model\PatientOperations.class
 com\chsapp\dao\PatientOperations.class

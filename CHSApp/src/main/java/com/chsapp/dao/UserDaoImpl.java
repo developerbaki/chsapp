@@ -5,6 +5,7 @@
  */
 package com.chsapp.dao;
 
+import com.chsapp.model.LoginModel;
 import com.chsapp.model.User;
 import com.chsapp.util.DBConnectionUtility;
 import com.mysql.jdbc.Connection;
@@ -19,19 +20,29 @@ import java.sql.SQLException;
 public class UserDaoImpl implements UserDao {
 
     @Override
-    public boolean loginUser(String userName, String password) {
+    public LoginModel loginUser(String userName, String password) {
+        LoginModel loginModel = new LoginModel();
+        loginModel.Success = false;
         try (Connection conn = DBConnectionUtility.DBConnectionUtility()) {
-            String query = "select * from user where username=? and password=?";
+            String query = "SELECT user.username, user_role.name as role FROM user LEFT JOIN user_role ON user.user_role_id=user_role.id WHERE user.username=? AND user.password=?";
             PreparedStatement preparedStatement = conn.prepareStatement(query);
             preparedStatement.setString(1, userName);
             preparedStatement.setString(2, password);
             ResultSet rs = preparedStatement.executeQuery();
-           return rs.first();
+
+            while (rs.next()) {
+                loginModel.Username = rs.getString("username");
+                loginModel.Rolename = rs.getString("role");
+                loginModel.Success = true;
+                //loginModel.unreadMessageCount = 5;
+            }
+
+            return loginModel;
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return false;
-    } 
+        return loginModel;
+    }
 }
