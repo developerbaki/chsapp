@@ -15,9 +15,10 @@
             }
 
         %>
-        <h3>Ba?ar?l? giri? yapt?n?z. 	${cookie['username'].value} ${cookie['role'].value} ${cookie['unreadMessageCount'].value}</h3><br>
-        your session is set to expire in 10min<br>
-        try reloading after 10 min <br>
+        <h3>Basariyla Giris Yaptiniz. 	${cookie['username'].value} ${cookie['role'].value} ${cookie['unreadMessageCount'].value}</h3><br>
+        <h4>your session is set to expire in 10min
+        try reloading after 10 min </h4><br>
+        
         <form action="Logout" method="post">
             <input type="submit" value="Logout">
         </form>

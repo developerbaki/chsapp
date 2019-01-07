@@ -3,13 +3,15 @@ com\chsapp\dao\UserDaoImpl.class
 com\chsapp\servlet\Logout.class
 com\chsapp\model\AppointmentStatus.class
 com\chsapp\model\User.class
+com\chsapp\model\AppointmentPatientModel.class
 com\chsapp\model\UserRole.class
 com\chsapp\dao\PatientDao.class
 com\chsapp\util\DBConnectionUtility.class
 com\chsapp\model\Patient.class
 com\chsapp\servlet\Login.class
-com\chsapp\dao\Appointment.class
+com\chsapp\dao\AppointmentDaoImpl.class
 com\chsapp\model\LoginModel.class
 com\chsapp\model\Appointment.class
 com\chsapp\model\PatientOperations.class
-com\chsapp\dao\PatientOperations.class
+com\chsapp\dao\AppointmentDao.class
+com\chsapp\dao\PatientOperationsDao.class

@@ -9,7 +9,7 @@ package com.chsapp.dao;
  *
  * @author baki
  */
-public interface PatientOperations {
+public interface PatientOperationsDao {
     public void addPatientOperations(int appointmentId, int patientId);
     
 }

@@ -9,14 +9,11 @@ package com.chsapp.model;
  *
  * @author baki
  */
-public class Appointment {
-    public int Id;
-    public int patientId;
-    public int appointmentStatusId;
-    public Patient patient;
-    public AppointmentStatus appointmentStatus;
+public class AppointmentPatientModel {
     public String date;
-    
-    
-    
+    public String province;
+    public String district;
+    public String hospital;
+    public String clinic;
+    public String doctor;
 }

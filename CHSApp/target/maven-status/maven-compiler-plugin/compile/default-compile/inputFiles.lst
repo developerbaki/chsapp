@@ -1,6 +1,10 @@
+C:\github\chsapp\CHSApp\src\main\java\com\chsapp\model\AppointmentPatientModel.java
 C:\github\chsapp\CHSApp\src\main\java\com\chsapp\model\Patient.java
+C:\github\chsapp\CHSApp\src\main\java\com\chsapp\dao\AppointmentDao.java
+C:\github\chsapp\CHSApp\src\main\java\com\chsapp\dao\AppointmentDaoImpl.java
 C:\github\chsapp\CHSApp\src\main\java\com\chsapp\dao\UserDao.java
 C:\github\chsapp\CHSApp\src\main\java\com\chsapp\dao\PatientDao.java
+C:\github\chsapp\CHSApp\src\main\java\com\chsapp\dao\PatientOperationsDao.java
 C:\github\chsapp\CHSApp\src\main\java\com\chsapp\model\LoginModel.java
 C:\github\chsapp\CHSApp\src\main\java\com\chsapp\servlet\Logout.java
 C:\github\chsapp\CHSApp\src\main\java\com\chsapp\model\AppointmentStatus.java
@@ -10,6 +14,5 @@ C:\github\chsapp\CHSApp\src\main\java\com\chsapp\dao\UserDaoImpl.java
 C:\github\chsapp\CHSApp\src\main\java\com\chsapp\model\UserRole.java
 C:\github\chsapp\CHSApp\src\main\java\com\chsapp\servlet\Login.java
 C:\github\chsapp\CHSApp\src\main\java\com\chsapp\model\User.java
+C:\github\chsapp\CHSApp\src\main\java\com\chsapp\servlet\Home.java
 C:\github\chsapp\CHSApp\src\main\java\com\chsapp\util\DBConnectionUtility.java
-C:\github\chsapp\CHSApp\src\main\java\com\chsapp\dao\Appointment.java
-C:\github\chsapp\CHSApp\src\main\java\com\chsapp\dao\PatientOperations.java
