@@ -15,5 +15,6 @@ public interface AppointmentDao {
     public List <Appointment> getPatientAppointments(String userName); //select işlemi sql
     public boolean newPatientAppointment(Appointment appointment); //insert işlemi sql
     public List <Appointment> getDoctorAppointments(String userName);
+    public void deleteDoctorAppointment(int appointmentId);
     
 }
